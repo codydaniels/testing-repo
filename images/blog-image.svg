@@ -5,6 +5,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="347"
@@ -25,7 +26,29 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs838" />
+     id="defs838">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient846">
+      <stop
+         style="stop-color:#666666;stop-opacity:1;"
+         offset="0"
+         id="stop842" />
+      <stop
+         style="stop-color:#666666;stop-opacity:0;"
+         offset="1"
+         id="stop844" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient846"
+       id="linearGradient848"
+       x1="8.99128e-07"
+       y1="128.24225"
+       x2="347.24054"
+       y2="128.24225"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -45,9 +68,10 @@
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg834" />
+     inkscape:current-layer="svg834"
+     inkscape:document-rotation="0" />
   <rect
-     style="fill:#666666;stroke:none;stroke-width:62.9741;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+     style="fill:url(#linearGradient848);stroke:none;stroke-width:62.9741;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke;fill-opacity:1"
      id="rect842"
      width="347.24054"
      height="256.4845"
